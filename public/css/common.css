@@ -1,0 +1,54 @@
+@charset "utf-8";
+/*通用*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 14px "microsoft yahei", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+td {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  list-style: none;
+}
+label,
+span,
+i,
+b {
+  display: inline-block;
+}
+input {
+  border: none;
+  outline: 0;
+}
+table {
+  border-collapse: collapse;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+
+
+

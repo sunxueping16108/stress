@@ -1,0 +1,124 @@
+/************左侧导航栏部分*************/
+/**导航栏整体布局**/
+#nav {
+  width: 136px;
+  position: absolute;
+  height: 100%;
+  background: rgba(41,46,52,100);
+  text-align: center;
+  color: rgba(81,82,83,100);
+  font-weight: bold;
+}
+/*******导航栏logo部分*******/
+#nav img {
+  margin-top: 34px;
+}
+/*******导航列表*******/
+#nav li {
+  margin-top: 50px;
+  cursor: pointer;
+  height: 50px;
+}
+#nav li:hover {
+  color: rgba(110,153,255,100);
+}
+#nav li>span {
+  margin-top: 40px;
+}
+/*攻击源监控图标*/
+.icon-attack-m {
+  background: url(../images/attack_m.png) no-repeat center top;
+}
+.icon-attack-m:hover {
+  background: url(../images/attack_m_a.png) no-repeat center top;
+}
+.icon-attack-m-a {
+  background: url(../images/attack_m_a.png) no-repeat center top;
+  color: rgba(110,153,255,100);
+}
+/*任务管理图标*/
+.icon-task-m {
+  background: url(../images/task_m.png) no-repeat center top;
+}
+.icon-task-m:hover {
+  background: url(../images/task_m_a.png) no-repeat center top;
+}
+.icon-task-m-a {
+  background: url(../images/task_m_a.png) no-repeat center top;
+  color: rgba(110,153,255,100);
+}
+/*网络设置图标*/
+.icon-web-c {
+  background: url(../images/web_c.png) no-repeat center top;
+}
+.icon-web-c:hover {
+  background: url(../images/web_c_a.png) no-repeat center top;
+}
+.icon-web-c-a {
+  background: url(../images/web_c_a.png) no-repeat center top;
+  color: rgba(110,153,255,100);
+}
+/*用户信息设置图标*/
+.icon-userInfo-s {
+  background: url(../images/userInfo_s.png) no-repeat center top;
+}
+.icon-userInfo-s:hover {
+  background: url(../images/userInfo_s_a.png) no-repeat center top;
+}
+.icon-userInfo-s-a {
+  background: url(../images/userInfo_s_a.png) no-repeat center top;
+  color: rgba(110,153,255,100);
+}
+/*******导航栏底部*******/
+#on-off {
+  position: absolute;
+  bottom: 0;
+}
+#on-off i {
+  display: block;
+  margin: 0 auto;
+}
+/*关机重启退出登录*/
+#on-off>div {
+  display: inline-block;
+  cursor: pointer;
+  height: 78px;
+  padding-top: 12px;
+}
+#on-off>div:first-child {
+  padding-right: 21px;
+  margin-right: 14px;
+  border-right: 2px solid rgba(62,70,80,100);
+}
+/*关机*/
+/*关机图标*/
+.icon-shutdown {
+  width: 32px;
+  height: 29px;
+  background: url(../images/shutdown.png);
+}
+/*重启*/
+/*重启图标*/
+.icon-restart {
+  width: 35px;
+  height: 35px;
+  background: url(../images/restart.png);
+}
+/*退出登录*/
+#on-off>div:last-child {
+  display: block;
+  width: 136px;
+  height: 80px;
+  background: rgba(46,51,58,100);
+  margin-top: 12px;
+}
+/*退出登录图标*/
+.icon-log-out {
+  width: 33px;
+  height: 37px;
+  background: url(../images/log_out.png);
+}
+/************右侧内容部分************/
+body>div {
+  padding-left: 136px;
+}

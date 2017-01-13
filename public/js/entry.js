@@ -1,0 +1,1 @@
+require('./config.js');//载入自身想要用的js
